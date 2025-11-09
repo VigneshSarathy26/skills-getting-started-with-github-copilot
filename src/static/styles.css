@@ -142,3 +142,41 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+/* New participant styles */
+.participants {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px dashed #e0e0e0;
+}
+
+.participants strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #1a237e;
+}
+
+.participants-list {
+  list-style: disc;
+  margin-left: 20px;
+  padding-left: 0;
+}
+
+.participant-item {
+  padding: 4px 0;
+  color: #444;
+  font-size: 14px;
+  word-break: break-all;
+}
+
+/* No participants hint */
+.no-participants {
+  margin-top: 8px;
+  color: #777;
+  font-style: italic;
+}
+
+/* Slight description spacing */
+.activity-desc {
+  margin-bottom: 8px;
+}
